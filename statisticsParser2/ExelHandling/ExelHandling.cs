@@ -11,7 +11,7 @@ namespace statisticsParser2.ExelHandling
     {
         private Excel.Application inputApp;
         private InputProccessing.SessionInputWorkbook inputWorkbook;
-        private InputProccessing.SessionInputWorkbook outputWorkbook;
+        private Output.SessionOutputWorkbook outputWorkbook;
 
         public bool Initialize(string inputFile)
         {
